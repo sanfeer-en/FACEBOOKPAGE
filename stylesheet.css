@@ -7,14 +7,17 @@
 
 body{
     margin:0 ;
+    font-family: Arial, Helvetica, sans-serif ;
 }
 .logo{
     width:50%  ;
-    
+    padding-top:32px;
+    float:left ;
      
 }
 .login{
     width:50% ;
+    float:left ;
      
 }
 .logo-text{
@@ -22,5 +25,32 @@ body{
     font-size: 35px;
     font-weight: bold;
     text-decoration: none;
-    font-family:Arial, Helvetica, sans-serif ;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 170px; 
+}
+.login-label{
+    color: #fff;
+    font-size: 11px;
+}
+.login-controls {
+    margin-left: 111px;
+}
+.login{
+    padding-top: 10px ;
+}
+.forgotten{
+     color: #fff;
+     font-size: 15px;
+     text-decoration: none;
+     color: #9cb4d8;
+}
+.sub-btn{
+    background-color: #4267b2;
+    color: #fff;
+    height: 20px;
+    border-color:#29487d ;
+    cursor: pointer;
+}
+.sub-btn:hover{
+       background: red;
 }

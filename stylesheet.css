@@ -52,19 +52,35 @@ body{
     cursor: pointer;
 }
 .sub-btn:hover{
-       background:linear-gradient();
+       background:linear-gradient(rgb(107, 74, 74));
 }
 
 .left-section{
       width: 50%;
      float: left;
+     padding-left: 134px;
+     padding-top: 52px;
     }
 .right-section{
-    width: 50%;
+    width: 39%;
      float: left;
 
 }
 
 body{
-    background-color: aliceblue;
+    background-color:rgb(222, 227, 235);
+    /* background-image: linear-gradient(#455241,#654812); */
+}
+.image{
+    width: 650px;
+    padding-left: 174px; 
+
+}
+.para{
+   
+    padding-left: 174px;
+    font-weight:bold ;
+    font-size: 21px;
+    padding-top: 40px;
+    
 }
